@@ -1,0 +1,481 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.header {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.headmain {
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+}
+
+.header-contentmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    height: 100px;
+}
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    max-width: 200px;
+    margin-top: 10x;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+    color: #FF8C00;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav a img {
+    max-width: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF8C00;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #FFA500;
+}
+
+.cta-button-large {
+    display: inline-block;
+    background-color: #FF8C00;
+    color: #ffffff;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button-large:hover {
+    background-color: #FFA500;
+}
+
+.offers {
+    padding: 20px;
+}
+
+.offers h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.offers p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.services li {
+    margin-right: 40px;
+}
+
+.services h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF8C00;
+}
+
+.services p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.services a {
+    display: inline-block;
+    background-color: #FF8C00;
+    color: #ffffff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.services a:hover {
+    background-color: #FFA500;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact textarea {
+    resize: vertical;
+}
+
+.contact button {
+    display: block;
+    background-color: #FF8C00;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #FFA500;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0a0a0a;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-content img {
+    max-width: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+/* Your existing CSS styles, as provided in previous responses */
+
+
+/* Your existing CSS styles, as provided in previous responses */
+
+.background-template {
+    background-image: url("5053309.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Animation for main sections */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.fade-in-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animation for "Get Started" button */
+.slide-up {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slide-up.slide-up-visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+/* Your existing CSS styles, as provided in previous responses */
+
+
+
+
+/* Animation for main sections */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.fade-in-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animation for "Get Started" button */
+.slide-up {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slide-up.slide-up-visible {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Slide-in animations for services */
+.services li {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.services li.services-enter-done {
+    transform: translateX(0);
+    opacity: 1;
+}
+.logo-image {
+    max-width: 400px; /* Double the size from the original (100px) */
+    width: 100%;
+    height: 100;
+    
+}
+/* Your existing CSS styles, as provided in previous responses */
+
+/* Additional styles for the chatbot-photos.html page */
+.hero .call-to-action {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #962222;
+}
+
+.benefits-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.benefits-list li {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.benefits-list h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF8C00;
+    margin: 10px 0;
+}
+
+.benefits-list p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555555;
+}
+
+.benefits-list img {
+    max-width: 70px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF8C00;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #FFA500;
+}
+.blog-section {
+    padding: 50px 20px;
+    text-align: center;
+    
+}
+.blog-section h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.blog-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+/* ... (existing CSS rules) ... */
+
+/* ... (existing CSS rules) ... */
+
+.hero {
+    position: relative;
+}
+
+.book-call-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    margin-right: 630px;
+}
+
+.book-call-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+.book-call-button a:hover {
+    background-color: #2980b9;
+}
+
+/* Add the following CSS to your styles.css file */
+.center-align {
+    text-align: center;
+}
+
+
