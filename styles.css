@@ -55,7 +55,6 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .logo img {
